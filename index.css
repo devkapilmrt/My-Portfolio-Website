@@ -210,6 +210,14 @@ span{
 .btn:hover {
      box-shadow: none;
 }
+.btn button {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 2rem;
+}
+.btn button:hover {
+    cursor: pointer;
+}
 
 .about{
     display: flex;
